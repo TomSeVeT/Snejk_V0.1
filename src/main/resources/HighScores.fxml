@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="200.0" spacing="40.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="pl.sevet.snejk.controllers.HighScoresController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="87.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Label text="Wynik">
+               <font>
+                  <Font name="MS Gothic" size="34.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreLabel">
+               <font>
+                  <Font name="MS Gothic" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Separator prefHeight="182.0" prefWidth="200.0" />
+      <Label text="Top Wyniki" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="MS Gothic" size="32.0" />
+         </font>
+      </Label>
+      <VBox fx:id="highScoresBox" prefHeight="428.0" prefWidth="200.0">
+         <VBox.margin>
+            <Insets left="15.0" />
+         </VBox.margin></VBox>
+   </children>
+   <padding>
+      <Insets top="60.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="1001.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+fx:controller="pl.sevet.snejk.controllers.GameController">
+    <children>
+        <fx:include fx:id="menu" prefHeight="602.0" prefWidth="200.0" source="Menu.fxml" HBox.hgrow="NEVER" />
+        <fx:include fx:id="level" prefHeight="602.0" prefWidth="601.0" source="Level.fxml" HBox.hgrow="NEVER" />
+        <fx:include fx:id="highScores" prefHeight="602.0" prefWidth="200.0" source="HighScores.fxml" HBox.hgrow="NEVER" />
+    </children>
+</HBox>

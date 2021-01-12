@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onKeyPressed="#keyPressed" prefHeight="602.0" prefWidth="601.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="pl.sevet.snejk.controllers.LevelController">
+   <children>
+      <Canvas fx:id="canvas" height="601.0" layoutY="1.0" width="601.0" />
+      <AnchorPane fx:id="map" prefHeight="600.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
