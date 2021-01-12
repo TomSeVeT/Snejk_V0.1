@@ -202,7 +202,7 @@ public class LevelController {
         timer.stop();
         canvas.getGraphicsContext2D().setFill(Color.RED);
         canvas.getGraphicsContext2D().setFont(new Font(50));
-        canvas.getGraphicsContext2D().fillText("JEBANY LOOSER", Settings.getMapSize() / 4, Settings.getMapSize() / 2);
+        canvas.getGraphicsContext2D().fillText("LOOSER", Settings.getMapSize() / 4, Settings.getMapSize() / 2);
         menuController.enableButtons();
         if(highScoresController==null) highScoresController = gameController.getHighScoresController();
         highScoresController.scoreCheck();
